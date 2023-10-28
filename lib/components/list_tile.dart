@@ -22,10 +22,13 @@ class AppBarTile extends StatelessWidget {
                   color: Color(0xFF9397A0),
                   fontWeight: FontWeight.w500),
             )),
-        leading: SizedBox(
+        leading: Container(
           width: 49,
           height: 49,
-          child: Image.asset('assets/Vector.png'),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(12),
+              image: const DecorationImage(
+                  fit: BoxFit.cover, image: AssetImage('assets/p3.png'))),
         ));
   }
 }
