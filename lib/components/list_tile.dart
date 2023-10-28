@@ -15,7 +15,7 @@ class AppBarTile extends StatelessWidget {
                   fontSize: 16,
                   color: Color(0xFF19202D))),
         ),
-        subtitle: Text('Monday, 3 October',
+        subtitle: Text('Saturday, 28 October',
             style: GoogleFonts.poppins(
               textStyle: const TextStyle(
                   fontSize: 12,
