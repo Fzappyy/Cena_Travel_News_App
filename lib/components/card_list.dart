@@ -40,7 +40,7 @@ class MyCardList extends StatelessWidget {
       height: MediaQuery.of(context).size.height * .50,
       child: ListView.builder(
           scrollDirection: Axis.horizontal,
-          itemExtent: 320,
+          itemExtent: 300,
           itemCount: cardList._cardList.length,
           itemBuilder: (context, index) {
             final cardData = cardList._cardList[index];
@@ -70,14 +70,14 @@ class MyCardList extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(
-                          height: 10,
+                          height: 20,
                         ),
                         Expanded(
                           child: Text(
                             cardData[1],
                             style: GoogleFonts.poppins(
                                 textStyle: const TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold)),
+                                    fontSize: 16, fontWeight: FontWeight.bold)),
                           ),
                         ),
                         Expanded(
